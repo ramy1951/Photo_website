@@ -1,0 +1,387 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+.main-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.align-to-center{
+  display: flex;
+  justify-content: center;
+}
+
+.align-to-vertical-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: salmon;
+  margin: 2em;
+}
+
+.header-label-wrap{
+  margin: 2em;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 2px;
+  background-color: salmon;
+}
+
+.landing-buttons{
+  margin: 2em;
+  padding: 1.7em;
+  padding-left: 10em;
+  padding-right: 10em;
+  box-shadow: 0 8px 6px -6px black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: salmon;
+}
+
+.post-buttons{
+  margin: 2em;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 0 8px 6px -6px black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: salmon;
+}
+
+.submit-buttons{
+  margin: 2em;
+  padding: 2em 0.5em;
+  box-shadow: 0 8px 6px -6px black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: salmon;
+  width: 20em;
+}
+
+.submit-buttons:hover{
+  margin: 2em;
+  padding: 2em 0.5em;
+  box-shadow: 0 8px 6px -6px black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(250, 191, 184);
+  width: 19.8em;
+  cursor: pointer;
+}
+
+button[id $= "-button"]:hover{
+  background-color: rgb(250, 191, 184);
+  cursor: pointer;
+}
+
+
+a[id $= "-button"]:hover{
+  background-color: rgb(250, 191, 184);
+
+}
+
+a[id $= "button-horizontal"]:hover{
+  cursor: pointer;
+  background-color: rgb(250, 191, 184);
+  padding: 0.4em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  box-shadow: 0;
+}
+
+.full-width-block{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+  background-color: cornflowerblue;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.background{
+  min-width: 540px;
+  background: url(../images/LandingBG.jpeg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.background-registration{
+  min-width: 540px;
+  background: url(../images/BG3.jpeg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.background-login{
+  min-width: 540px;
+  background: url(../images/BG1.jpeg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.text-box{
+  width: 456px;
+  height: 2em;
+  margin : 36px;
+  padding: 1em;
+  background-color:white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.check-box{
+  padding: 10em;
+  margin: 36px;
+  align-self: center;
+}
+
+.image-bg{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: lightgray;
+}
+
+.horizontal-form{
+  display:flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.vertical-form{
+  display : flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.display-single-img{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  max-width: 65%;
+  box-shadow: 0px 6px 4.5px 0.14px rgba(0, 0, 0, 0.14);
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+input[name = "search-submit"]{
+  justify-content: center;
+  margin-left: 1em;
+}
+
+input[name = "search-submit"]:hover{
+  background-color: rgb(250, 191, 184);
+  cursor: pointer;
+  
+}
+
+.input-lines{
+  display:flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+.comment-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 700px;
+  height: 100px;
+  padding: 4px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  background-color:white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  color: black;
+}
+
+.navbar{
+  width: 90%;
+  flex-direction: row;
+  top: 0px;
+  text-align: center;
+  background: cornflowerblue;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  box-shadow: 0 8px 6px -6px black;
+  justify-items:center;
+}
+
+.navbar ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.navbar-button-color{
+  background-color: salmon;
+}
+
+
+.navbar ul li:hover{
+  background: rgb(235, 149, 139);
+}
+
+.searchbar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 15em;
+  margin-right: 15em;
+  background: cornflowerblue;
+  padding-top: 0.5em;
+  border-bottom: 1px solid black;
+  padding: 1px;
+  box-shadow: 0 8px 6px -6px black;
+}
+ 
+.searchbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  height: 40px;
+  width: 300px;
+  padding: 0.3em;
+}
+
+#img-storage{
+  margin: auto;
+  margin-top: 1em;
+  display: grid;
+  gap: 4px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: repeat (3,300px);
+  grid-auto-columns: repeat (3, 300px);
+}
+
+#new-post-page{
+  min-width: 540px;
+  background: url(../images/BG4.jpeg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.choose-file-button{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: salmon;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 8px 6px -6px black;
+  height: 70px;
+  width: 300px;
+  margin-top:1em;
+  padding-top: .3em;
+}
+
+.choose-file-button:hover{
+  cursor: pointer;
+  background-color: rgb(235, 149, 139);
+  height: 68px;
+  width:298px;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
